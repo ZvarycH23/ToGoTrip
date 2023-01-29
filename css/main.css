@@ -81,6 +81,18 @@ z-index: 0;
 
 }
 
+.header_img::after { 
+    content: "";
+
+    position: absolute;
+    top: -30px;
+    right: -50px;
+
+    width: 830px;
+    height: 622px;
+    background-image: url("./../img/header/headerElements.svg");
+}
+
 .header_img img {
     position: absolute;
     top:-181px;
